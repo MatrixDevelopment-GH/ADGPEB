@@ -1,0 +1,28 @@
+{
+  "name": "adgpeb",
+  "version": "1.0.0",
+  "description": "Another Discord General Purpose Economical Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node --esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatrixDevelopment-GH/ADGPEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatrixDevelopment-GH/ADGPEB/issues"
+  },
+  "homepage": "https://github.com/MatrixDevelopment-GH/ADGPEB#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.1",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
